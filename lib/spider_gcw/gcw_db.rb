@@ -8,4 +8,13 @@ module SpiderGcw
 	class GcwVideo < ActiveRecord::Base
 		# establish_connection $dbconfig[:development]
 	end
+
+	class Video < ActiveRecord::Base
+	end
+	class VideoList < ActiveRecord::Base
+	end
+	class VideoComment < ActiveRecord::Base
+	end
+	class VideoRelatedKeyword < ActiveRecord::Base
+	end
 end
